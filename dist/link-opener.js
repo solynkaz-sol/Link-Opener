@@ -1,7 +1,7 @@
 // ==UserScript==
 // @name         Open Simpcity Links
 // @namespace    https://github.com/solynkaz-sol
-// @version      0.2
+// @version      0.3
 // @description  Open Simpcity unread watched threads
 // @updateURL https://github.com/solynkaz-sol/Link-Opener/blob/master/dist/link-opener.js
 // @downloadURL https://github.com/solynkaz-sol/Link-Opener/blob/master/dist/link-opener.js
@@ -13,10 +13,6 @@
 
 (function() {
   'use strict';
-
-  const supportedSites = {
-    "simpcity": 'https://simpcity.su'
-  };
 
   function openSimpcityLinks() {
     const links = document.querySelectorAll('a[href$="/unread"]');

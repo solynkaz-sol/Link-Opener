@@ -1,10 +1,10 @@
 // ==UserScript==
 // @name         Open Simpcity Links
 // @namespace    https://github.com/solynkaz-sol
-// @version      0.3
+// @version      0.4
 // @description  Open Simpcity unread watched threads
-// @updateURL https://github.com/solynkaz-sol/Link-Opener/blob/master/dist/link-opener.js
-// @downloadURL https://github.com/solynkaz-sol/Link-Opener/blob/master/dist/link-opener.js
+// @updateURL https://github.com/solynkaz-sol/Link-Opener/raw/refs/heads/master/dist/link-opener.js
+// @downloadURL https://github.com/solynkaz-sol/Link-Opener/raw/refs/heads/master/dist/link-opener.js
 // @supportURL https://github.com/solynkaz-sol/Link-Opener/issues
 // @author       Sol
 // @match        *://simpcity.su/*

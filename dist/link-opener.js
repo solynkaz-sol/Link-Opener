@@ -1,7 +1,7 @@
 // ==UserScript==
 // @name         Open Simpcity Links
 // @namespace    https://github.com/solynkaz-sol
-// @version      0.4
+// @version      0.5
 // @description  Open Simpcity unread watched threads
 // @updateURL https://github.com/solynkaz-sol/Link-Opener/raw/refs/heads/master/dist/link-opener.js
 // @downloadURL https://github.com/solynkaz-sol/Link-Opener/raw/refs/heads/master/dist/link-opener.js
@@ -22,7 +22,7 @@
         setTimeout(() => {
           link.href = link.href.replace('/unread', '/latest');
           window.open(link.href, '_blank');
-        }, 6000 * index);
+        }, 5750 * index);
       }
     }
   }

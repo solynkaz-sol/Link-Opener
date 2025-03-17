@@ -1,7 +1,7 @@
 // ==UserScript==
 // @name         Open Simpcity Links
 // @namespace    https://github.com/solynkaz-sol
-// @version      0.6.4
+// @version      0.6.5
 // @description  Open Simpcity unread watched threads
 // @updateURL https://github.com/solynkaz-sol/Link-Opener/raw/refs/heads/master/dist/sc-opener.user.js
 // @downloadURL https://github.com/solynkaz-sol/Link-Opener/raw/refs/heads/master/dist/sc-opener.user.js
@@ -28,12 +28,9 @@
   function addButton(title, func) {
     const button = document.createElement('button');
     button.innerText = title;
+    button.className = 'button button--link';
     button.style.marginLeft = '10px';
     button.style.padding = '5px 10px';
-    button.style.backgroundColor = '#007bff';
-    button.style.color = '#fff';
-    button.style.border = 'none';
-    button.style.borderRadius = '4px';
     button.style.cursor = 'pointer';
 
     button.addEventListener('click', () => {
